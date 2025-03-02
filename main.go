@@ -20,8 +20,6 @@ func pairSum(nums []int, target int) []int {
 func main() {
 	// Test cases
 	fmt.Println(pairSum([]int{2, 7, 11, 15}, 9)) // Output: [0, 1]
-	fmt.Println(pairSum([]int{3, 2, 4}, 6))
-
-	// Output: [1, 2]
-	fmt.Println(pairSum([]int{5, 8, 6, 1}, 7)) //	Output: [2,3]
+	fmt.Println(pairSum([]int{3, 2, 4}, 6))      // Output: [1, 2]
+	fmt.Println(pairSum([]int{5, 8, 6, 1}, 7))   //	Output: [2,3]
 }
